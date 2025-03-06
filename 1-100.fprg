@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-100"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-14 09:05:47 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswODowNToyOSBkZS47MjI4MA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswOTowNTo0NyBkZS47MTsyMzg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <input variable="szh&#225;m"/>
+            <while expression="!(1&lt;=szh&#225;m &amp;&amp; szh&#225;m&lt;=100)">
+                <output expression="&quot;add meg &#250;jra bro&quot;" newline="True"/>
+                <input variable="szh&#225;m"/>
+            </while>
+            <output expression="&quot;v&#233;gre&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

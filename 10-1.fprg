@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="10-1"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-19 09:07:54 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswOTowNToyNyBkZS47MjI5MQ=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswOTowNzo1NCBkZS47MTsyNDAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szam" type="Integer" array="False" size=""/>
+            <assign variable="szam" expression="10"/>
+            <while expression="szam  &gt;= 1">
+                <output expression="szam" newline="True"/>
+                <assign variable="szam" expression="szam - 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

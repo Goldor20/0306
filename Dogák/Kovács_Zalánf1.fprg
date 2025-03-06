@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Kov&#225;cs_Zal&#225;nf1"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 08:16:31 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODowNTowMiBkZS47MjI3MQ=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODoxNjozMSBkZS47MTsyMzgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <output expression="&quot;Mennyit kell fizetnie?&quot;" newline="True"/>
+            <input variable="szh&#225;m"/>
+            <declare name="t&#246;rzsv&#225;s" type="Boolean" array="False" size=""/>
+            <input variable="t&#246;rzsv&#225;s"/>
+            <if expression="szh&#225;m&gt;=10000 &amp;&amp; t&#246;rzsv&#225;s==True">
+                <then>
+                    <output expression="szh&#225;m-(szh&#225;m/100*15) &amp;&quot; forintot kell fizetnie&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#214;n nem jogosult a 15%-os kedvezm&#233;nyre&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

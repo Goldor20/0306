@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 4.4.2 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1650" height="2000">
+	<rect x="0" y="0" width="1650" height="2000" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,125 875,186"/>
+		<polygon fill="#404040" stroke="none" points="875,200 888,175 861,175"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,1800 875,1861"/>
+		<polygon fill="#404040" stroke="none" points="875,1875 888,1850 861,1850"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 775,25 A 50 50, 0, 0 0, 775 125 L 975,125 A 50 50, 0, 0 0, 975 25 Z"/>
+			<text x="875" y="40" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="875" dy="50" unicode-bidi="embed">F&#337;program</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 775,1875 A 50 50, 0, 0 0, 775 1975 L 975,1975 A 50 50, 0, 0 0, 975 1875 Z"/>
+			<text x="875" y="1890" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="875" dy="50" unicode-bidi="embed">V&#233;ge</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,325 875,386"/>
+			<polygon fill="#404040" stroke="none" points="875,400 888,375 861,375"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,525 875,586"/>
+			<polygon fill="#404040" stroke="none" points="875,600 888,575 861,575"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,750 875,811"/>
+			<polygon fill="#404040" stroke="none" points="875,825 888,800 861,800"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,925 875,986"/>
+			<polygon fill="#404040" stroke="none" points="875,1000 888,975 861,975"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,1100 875,1161"/>
+			<polygon fill="#404040" stroke="none" points="875,1175 888,1150 861,1150"/>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 725,200 L 725,325 L 1025,325 L 1025,200 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="725,225 1025,225"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="750,200 750,325"/>
+				<text x="887" y="240" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="887" dy="50" unicode-bidi="embed">nev: sz&#246;veg</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 700,400 L 700,525 L 1050,525 L 1050,400 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="700,425 1050,425"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="725,400 725,525"/>
+				<text x="887" y="440" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="887" dy="50" unicode-bidi="embed">jelszo: sz&#246;veg</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 600,600 L 525,750 L 1150,750 L 1225,600 Z"/>
+				<text x="875" y="615" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="875" dy="50" unicode-bidi="embed">Ki: &quot;K&#233;rem adja meg a nev&#233;t</tspan>
+					<tspan x="875" dy="50" unicode-bidi="embed"> &#233;s a jelszv&#225;t&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0E8FF" stroke="#7088A0" stroke-width="3" stroke-dasharray="none" d="M 775,825 L 725,925 L 975,925 L 1025,825 Z"/>
+				<text x="875" y="840" fill="#102840" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="875" dy="50" unicode-bidi="embed">Be: nev</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0E8FF" stroke="#7088A0" stroke-width="3" stroke-dasharray="none" d="M 750,1000 L 700,1100 L 1000,1100 L 1050,1000 Z"/>
+				<text x="875" y="1015" fill="#102840" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="875" dy="50" unicode-bidi="embed">Be: jelszo</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,1350 1350,1350 1350,1561"/>
+				<polygon fill="#404040" stroke="none" points="1350,1575 1363,1550 1336,1550"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1350,1675 1350,1775 913,1775"/>
+				<polygon fill="#404040" stroke="none" points="900,1775 924,1788 924,1761"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="550,1350 350,1350 350,1561"/>
+				<polygon fill="#404040" stroke="none" points="350,1575 363,1550 336,1550"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="350,1675 350,1775 836,1775"/>
+				<polygon fill="#404040" stroke="none" points="850,1775 825,1761 825,1788"/>
+				<g>
+					<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,1175 L 525,1350 L 875,1525 L 1225,1350 Z"/>
+					<text x="875" y="1290" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="875" dy="50" unicode-bidi="embed">nev==&quot;admin&quot; &amp;&amp; jelszo</tspan>
+						<tspan x="875" dy="50" unicode-bidi="embed">==&quot;ABC123&quot;</tspan>
+					</text>
+				</g>
+				<g>
+					<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 1125,1575 L 1075,1675 L 1575,1675 L 1625,1575 Z"/>
+					<text x="1350" y="1590" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1350" dy="50" unicode-bidi="embed">Ki: &quot;Sikeres bel&#233;p&#233;s&quot;</tspan>
+					</text>
+				</g>
+				<g>
+					<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 100,1575 L 50,1675 L 600,1675 L 650,1575 Z"/>
+					<text x="350" y="1590" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="350" dy="50" unicode-bidi="embed">Ki: &quot;bel&#233;p&#233;s megtagadva&quot;</tspan>
+					</text>
+				</g>
+				<ellipse cx="875" cy="1775" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+				<text x="1287" y="1265" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1287" dy="50" unicode-bidi="embed">igaz</tspan>
+				</text>
+				<text x="437" y="1265" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="437" dy="50" unicode-bidi="embed">hamis</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

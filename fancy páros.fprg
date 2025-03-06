@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fancy p&#225;ros"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 09:29:20 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswOToyMjo1MyBkZS47MjI3Nw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswOToyOToyMCBkZS47MTsyMzg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szam" type="Integer" array="False" size=""/>
+            <input variable="szam"/>
+            <if expression="parosE(szam)">
+                <then>
+                    <output expression="&quot;P&#225;ros&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;P&#225;ratlan&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="parosE" type="Boolean" variable="paros">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="paros" type="Boolean" array="False" size=""/>
+            <assign variable="paros" expression="x%2=0"/>
+        </body>
+    </function>
+</flowgorithm>

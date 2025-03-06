@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="coin"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-14 08:30:55 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswODoxNzowNSBkZS47MjI3Nw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswODozMDo1NSBkZS47MTsyMzg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <declare name="fej, &#237;r&#225;s" type="Integer" array="False" size=""/>
+            <assign variable="fej" expression="0"/>
+            <assign variable="&#237;r&#225;s" expression="1"/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="1"/>
+            <do expression="!(counter==50)">
+                <assign variable="szh&#225;m" expression="random(2)"/>
+                <assign variable="counter" expression="counter+1"/>
+                <if expression="szh&#225;m==1">
+                    <then>
+                        <assign variable="fej" expression="fej+1"/>
+                    </then>
+                    <else>
+                        <assign variable="&#237;r&#225;s" expression="&#237;r&#225;s+1"/>
+                    </else>
+                </if>
+            </do>
+            <output expression="fej &amp; &quot; fej &#233;s &quot; &amp; &#237;r&#225;s &amp; &quot; &#237;r&#225;s&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

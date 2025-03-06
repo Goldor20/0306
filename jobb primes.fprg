@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="jobb primes"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 09:16:55 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODo1NDozMSBkZS47MjI3Nw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODo1Nzo1NyBkZS47MjtkYXZlO0RBVklEQkFLU1pBNkExNjsyMDI0LTEwLTA5OzEwOjU3OjU3IFBNO3ByaW1zemFtLmZwcmc7NjYwNA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswOToxNjo1NSBkZS47MjsyMzkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szam" type="Integer" array="False" size=""/>
+            <assign variable="szam" expression="1"/>
+            <while expression="szam&lt;=100">
+                <call expression="alt(szam)"/>
+                <assign variable="szam" expression="szam+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="alt" type="None" variable="">
+        <parameters>
+            <parameter name="szam" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="prim" type="Boolean" array="False" size=""/>
+            <assign variable="prim" expression="true"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="2"/>
+            <while expression="i &lt;= sqrt(szam)">
+                <if expression="szam % i == 0">
+                    <then>
+                        <assign variable="prim" expression="false"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <if expression="prim &amp;&amp; szam!=1">
+                <then>
+                    <output expression="szam &amp; &quot; Ez a sz&#225;m pr&#237;m&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

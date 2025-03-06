@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="primes"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-10 08:26:57 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xMDswODowNzoyMiBkZS47MjI3MA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xMDswODoyNjo1NyBkZS47MTsyMzg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szam" type="Integer" array="False" size=""/>
+            <declare name="b" type="Boolean" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="2"/>
+            <input variable="szam"/>
+            <assign variable="b" expression="true"/>
+            <while expression="i&lt;=sqrt(szam)">
+                <if expression="szam % i == 0">
+                    <then>
+                        <assign variable="b" expression="false"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <if expression="b">
+                <then>
+                    <output expression="&quot;Pr&#237;m&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;nem pr&#237;m&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Kov&#225;cs_Zal&#225;nf4"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 08:30:51 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODoyNjowNiBkZS47MjI3OA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODozMDo1MSBkZS47MTsyMzgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <assign variable="szh&#225;m" expression="1"/>
+            <while expression="szh&#225;m&lt;=100">
+                <if expression="szh&#225;m%2=0 &amp;&amp; szh&#225;m%3=0">
+                    <then/>
+                    <else>
+                        <if expression="szh&#225;m%2=0 || szh&#225;m%3=0">
+                            <then>
+                                <output expression="szh&#225;m" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="szh&#225;m" expression="szh&#225;m+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

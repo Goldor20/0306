@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2 es sz&#225;m sim&#225;n"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-07 08:24:36 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0wNzswODoxNzo0MyBkZS47MjI4MQ=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0wNzswODoyNDozNiBkZS47MTsyMzg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <input variable="szh&#225;m"/>
+            <while expression="szh&#225;m&gt;0">
+                <assign variable="szh&#225;m" expression="szh&#225;m/2"/>
+                <if expression="szh&#225;m%2==0">
+                    <then>
+                        <output expression="0" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="1" newline="True"/>
+                        <assign variable="szh&#225;m" expression="szh&#225;m-0.5"/>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Kov&#225;cs_Zal&#225;nf3"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 08:25:45 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODoyMjo1NyBkZS47MjI4MA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswODoyNTo0NSBkZS47MTsyMzg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nev" type="String" array="False" size=""/>
+            <declare name="jelszo" type="String" array="False" size=""/>
+            <output expression="&quot;K&#233;rem adja meg a nev&#233;t &#233;s a jelszv&#225;t&quot;" newline="True"/>
+            <input variable="nev"/>
+            <input variable="jelszo"/>
+            <if expression="nev==&quot;admin&quot; &amp;&amp; jelszo==&quot;ABC123&quot;">
+                <then>
+                    <output expression="&quot;Sikeres bel&#233;p&#233;s&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;bel&#233;p&#233;s megtagadva&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FAKING PORT&#193;LOK"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-17 09:30:48 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswOToyMTo0OCBkZS47MjI4Mg=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswOTozMDo0OCBkZS47MTsyMzkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <assign variable="szh&#225;m" expression="1"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=100">
+                <call expression="alt(szh&#225;m)"/>
+                <assign variable="szh&#225;m" expression="szh&#225;m+1"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="alt" type="None" variable="">
+        <parameters>
+            <parameter name="szh&#225;m" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="szh&#225;m%2=0">
+                <then>
+                    <output expression="szh&#225;m" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

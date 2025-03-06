@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="k&#337;_pap&#237;r_oll&#243;"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-10 08:34:44 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xMDswODoyNzowMyBkZS47MjI3MQ=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xMDswODozNDo0NCBkZS47MTsyMzgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="player1" type="String" array="False" size=""/>
+            <declare name="player2" type="String" array="False" size=""/>
+            <input variable="player1"/>
+            <input variable="player2"/>
+            <if expression="player1 == &quot;k&#337;&quot;">
+                <then>
+                    <if expression="player2 == &quot;oll&#243;&quot;">
+                        <then>
+                            <output expression="player1 &amp; &quot; nyert&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="player2 == &quot;k&#337;&quot;">
+                                <then>
+                                    <output expression="&quot;d&#246;ntetlen&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="player2 == &quot;pap&#237;r&quot;">
+                                        <then>
+                                            <output expression="player2 &amp; &quot; nyert&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="player1 == &quot;oll&#243;&quot;">
+                        <then>
+                            <if expression="player2 == &quot;oll&#243;&quot;">
+                                <then>
+                                    <output expression="&quot;d&#246;ntetlen&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="player2 == &quot;k&#337;&quot;">
+                                        <then>
+                                            <output expression="player2 &amp; &quot; nyert&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="player2 == &quot;pap&#237;r&quot;">
+                                                <then>
+                                                    <output expression="player1 &amp; &quot; nyert&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="player1 == &quot;pap&#237;r&quot;">
+                                <then>
+                                    <if expression="player2 == &quot;oll&#243;&quot;">
+                                        <then>
+                                            <output expression="player2 &amp; &quot; nyert&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="player2 == &quot;k&#337;&quot;">
+                                                <then>
+                                                    <output expression="player1 &amp; &quot; nyert&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="player2 == &quot;pap&#237;r&quot;">
+                                                        <then>
+                                                            <output expression="&quot;d&#246;ntetlen&quot;" newline="True"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fizzbuzz"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 09:16:09 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswOToyNTozNSBkZS47MjI5Mg=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0yNjswOToxNjowOSBkZS47MjsyNDAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="szam" type="Integer" array="False" size=""/>
+            <assign variable="szam" expression="0"/>
+            <input variable="n"/>
+            <while expression="szam &lt; n">
+                <assign variable="szam" expression="szam + 1"/>
+                <if expression="szam % 3 = 0">
+                    <then>
+                        <if expression="szam % 5 = 0">
+                            <then>
+                                <output expression="&quot;fizz buzz&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;fizz&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <if expression="szam % 5 = 0">
+                            <then>
+                                <output expression="&quot;buzz&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="szam" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

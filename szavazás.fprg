@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="20-30"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-17 08:25:22 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoxMToyMyBkZS47MjI3Mw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoyNToyMiBkZS47NDsyMzg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <declare name="i" type="String" array="False" size=""/>
+            <output expression="&quot;adj meg az &#233;letkor&#225;t &#233;s milyen &#225;llampolg&#225;r&quot;" newline="True"/>
+            <input variable="szh&#225;m"/>
+            <input variable="i"/>
+            <if expression="szh&#225;m&gt;=18 &amp;&amp; i==&quot;Magyar&quot;">
+                <then>
+                    <output expression="&quot;szavazhat&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;nem&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

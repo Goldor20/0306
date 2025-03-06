@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="n es"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-19 09:05:23 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswOTowMzoxNSBkZS47MjI4Ng=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswOTowNToyMyBkZS47MTsyMzk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="n2" type="Integer" array="False" size=""/>
+            <assign variable="n2" expression="1"/>
+            <output expression="&quot;adj meg egy sz&#225;mot&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n2 &lt;= n">
+                <output expression="n2" newline="True"/>
+                <assign variable="n2" expression="n2+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

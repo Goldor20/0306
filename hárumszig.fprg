@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="20-30"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-17 08:39:39 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoxMToyMyBkZS47MjI3Mw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODozOTozOSBkZS47NTsyNDAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m, szh&#225;m2, szh&#225;m3" type="Integer" array="False" size=""/>
+            <output expression="&quot;adj meg 3 sz&#225;mot&quot;" newline="True"/>
+            <input variable="szh&#225;m"/>
+            <input variable="szh&#225;m2"/>
+            <input variable="szh&#225;m3"/>
+            <if expression="szh&#225;m&gt;szh&#225;m2 &amp;&amp; szh&#225;m&gt;szh&#225;m3">
+                <then>
+                    <if expression="szh&#225;m2+szh&#225;m3&gt;szh&#225;m">
+                        <then>
+                            <output expression="&quot;igen&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;nem&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="szh&#225;m2&gt;szh&#225;m3">
+                        <then>
+                            <if expression="szh&#225;m+szh&#225;m3&gt;szh&#225;m2">
+                                <then>
+                                    <output expression="&quot;igen&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;nem&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="szh&#225;m2+szh&#225;m&gt;szh&#225;m3">
+                                <then>
+                                    <output expression="&quot;igen&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;nem&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

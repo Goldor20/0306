@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="evszam"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-19 08:30:58 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswODoyNToxNCBkZS47MjI4OA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0xOTswODozMDo1OCBkZS47MTsyNDAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="evszam" type="Integer" array="False" size=""/>
+            <output expression="&quot;adj meg egy &#233;vsz&#225;mot&quot;" newline="True"/>
+            <input variable="evszam"/>
+            <if expression="evszam % 4 = 0">
+                <then>
+                    <if expression="evszam % 100 = 0">
+                        <then>
+                            <if expression="evszam % 400 = 0">
+                                <then>
+                                    <output expression="&quot;sz&#246;k&#337;&#233;v&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;nem sz&#246;k&#337;&#233;v&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;sz&#246;k&#337;&#233;v&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;nem sz&#246;k&#337;&#233;v&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

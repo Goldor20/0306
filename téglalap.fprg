@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="t&#233;glalap"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 09:11:53 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswOTowNDo0MiBkZS47MjI3NQ=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0yNDswOToxMTo1MyBkZS47MTsyMzgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Add meg az a &#233;s b oldalt&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <call expression="ker&#252;let(a,b)"/>
+            <call expression="ter&#252;let(a,b)"/>
+        </body>
+    </function>
+    <function name="ker&#252;let" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;A t&#233;glalap ker&#252;lete az 2*(a+b) ami ebben az  esetben &quot; &amp; 2*(a+b) &amp; &quot; cm&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="ter&#252;let" type="None" variable="">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;A t&#233;glalap ter&#252;lete az a*b ami ebben az esetben &quot; &amp; a*b &amp; &quot; n&#233;gyzet cm lesz&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

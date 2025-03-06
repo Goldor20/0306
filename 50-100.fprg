@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="20-30"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-17 08:18:03 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoxMToyMyBkZS47MjI3Mw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoxODowMyBkZS47MjsyMzg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="szh&#225;m" type="Integer" array="False" size=""/>
+            <output expression="&quot;K&#233;rlek adj meg egy sz&#225;mot&quot;" newline="True"/>
+            <input variable="szh&#225;m"/>
+            <if expression="(szh&#225;m&lt;=50) || (szh&#225;m&gt;=100)">
+                <then>
+                    <output expression="&quot;a sz&#225;mod 50-n&#233;l kisebb vagy 100 n&#225;l nagyobb&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;nem&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

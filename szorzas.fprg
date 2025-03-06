@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="szorzas"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-03 09:19:59 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0wOS0yNjswOToxNjoyOCBkZS47MjI5Mg=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0wMzswOToxOTo1OSBkZS47MjsyMzk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="a2" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="b" expression="1"/>
+            <declare name="szorzo" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="a2" expression="a"/>
+            <input variable="szorzo"/>
+            <while expression="b &lt;= szorzo">
+                <output expression="a" newline="True"/>
+                <assign variable="a" expression="a + a2"/>
+                <assign variable="b" expression="b + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

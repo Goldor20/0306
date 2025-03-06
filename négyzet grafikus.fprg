@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="n&#233;gyzet grafikus"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-14 09:08:46 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswODo1ODoyNCBkZS47MjI4Mw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswOTowODo0NiBkZS47MTsyMzkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sz&#225;m" type="Integer" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="0"/>
+            <declare name="sor" type="String" array="False" size=""/>
+            <assign variable="sor" expression="&quot; &quot;"/>
+            <input variable="sz&#225;m"/>
+            <do expression="!(counter==sz&#225;m)">
+                <assign variable="sor" expression="sor &amp; &quot;#&quot;"/>
+                <assign variable="counter" expression="counter+1"/>
+            </do>
+            <assign variable="counter" expression="0"/>
+            <do expression="!(counter==sz&#225;m)">
+                <output expression="sor" newline="True"/>
+                <assign variable="counter" expression="counter+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

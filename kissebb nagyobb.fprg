@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="kissebb nagyobb"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-07 09:27:34 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0wNzswOToxNjoxNSBkZS47MjI4MA=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0wNzswOToyNzozNCBkZS47MTsyMzkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v&#233;ge" type="String" array="False" size=""/>
+            <assign variable="v&#233;ge" expression="&quot;i&quot;"/>
+            <declare name="tipp" type="Integer" array="False" size=""/>
+            <assign variable="tipp" expression="Random(100)"/>
+            <declare name="mitipp&#252;nk" type="Integer" array="False" size=""/>
+            <while expression="!(v&#233;ge==&quot;igen&quot;)">
+                <input variable="mitipp&#252;nk"/>
+                <if expression="mitipp&#252;nk==tipp">
+                    <then>
+                        <assign variable="v&#233;ge" expression="&quot;igen&quot;"/>
+                    </then>
+                    <else>
+                        <if expression="mitipp&#252;nk&lt;tipp">
+                            <then>
+                                <output expression="&quot;nagyobb&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;kissebb&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;nyert&#233;l&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="20-30"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-17 08:22:36 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoxMToyMyBkZS47MjI3Mw=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xNzswODoyMjozNiBkZS47MzsyMzg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nap" type="String" array="False" size=""/>
+            <output expression="&quot;adj meg egy napot&quot;" newline="True"/>
+            <input variable="nap"/>
+            <if expression="nap==&quot;szombat&quot; || nap==&quot;vas&#225;rnap&quot;">
+                <then>
+                    <output expression="&quot;h&#233;tv&#233;ge van&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nap==&quot;h&#233;tf&#337;&quot; || nap==&quot;kedd&quot; ||nap==&quot;szerda&quot; || nap==&quot;cs&#252;t&#246;rt&#246;k&quot; || nap==&quot;p&#233;ntek&quot;">
+                        <then>
+                            <output expression="&quot;h&#233;tk&#246;znap&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Irj begy napot&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

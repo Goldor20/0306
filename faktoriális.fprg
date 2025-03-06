@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="faktori&#225;lis"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-10 09:11:35 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xMDswODo1NTo1NyBkZS47MjI4MQ=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMC0xMDswOToxMTozNSBkZS47MTsyMzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sz&#225;m" type="Integer" array="False" size=""/>
+            <declare name="szorz&#243;siz&#233;" type="Integer" array="False" size=""/>
+            <assign variable="szorz&#243;siz&#233;" expression="1"/>
+            <declare name="h&#225;nyszor" type="Integer" array="False" size=""/>
+            <declare name="iz&#233;" type="Integer" array="False" size=""/>
+            <assign variable="iz&#233;" expression="1"/>
+            <input variable="sz&#225;m"/>
+            <assign variable="h&#225;nyszor" expression="sz&#225;m"/>
+            <while expression="iz&#233; &lt;h&#225;nyszor">
+                <assign variable="sz&#225;m" expression="sz&#225;m * szorz&#243;siz&#233;"/>
+                <assign variable="iz&#233;" expression="iz&#233; + 1"/>
+                <assign variable="szorz&#243;siz&#233;" expression="szorz&#243;siz&#233; + 1"/>
+            </while>
+            <output expression="sz&#225;m &amp; &quot; a &quot; &amp; h&#225;nyszor &amp; &quot; faktori&#225;lisa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

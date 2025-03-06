@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="h&#225;romszig grafikus"/>
+        <attribute name="authors" value="D244TAN-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-14 09:16:21 de."/>
+        <attribute name="created" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswOTowODo0OSBkZS47MjI4Ng=="/>
+        <attribute name="edited" value="RDI0NFRBTi0wMTtEMjQ0LTE7MjAyNC0xMS0xNDswOToxNjoyMSBkZS47MTsyMzgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sz&#225;m, counter" type="Integer" array="False" size=""/>
+            <input variable="sz&#225;m"/>
+            <assign variable="counter" expression="0"/>
+            <declare name="sor" type="String" array="False" size=""/>
+            <assign variable="sor" expression="&quot;&quot;"/>
+            <do expression="!(counter==sz&#225;m)">
+                <assign variable="sor" expression="sor &amp; &quot;#&quot;"/>
+                <assign variable="counter" expression="counter+1"/>
+                <output expression="sor" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
